@@ -9,7 +9,7 @@ const closeModalButton = document.getElementById('close-modal');
 const sendButton = document.getElementById('send');
 
 const products = [
-  { "price": 15.00, "type": "sabonete", "name": "100% Coco Extra Virgem" },
+  { "price": 15.00, "type": "sabonete", "name": "Óleo de Coco Extra Virgem" },
   { "price": 15.00, "type": "sabonete", "name": "Esfoliante Café e Eucalipto" },       
   { "price": 20.00, "type": "sabonete", "name": "Cacau e Menta" },
   { "price": 15.00, "type": "sabonete", "name": "Mini Bastile" },
