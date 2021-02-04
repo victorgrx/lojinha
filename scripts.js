@@ -9,23 +9,12 @@ const closeModalButton = document.getElementById('close-modal');
 const sendButton = document.getElementById('send');
 
 const products = [
-  { "price": 10.00, "type": "livro", "name": "O teorema Katherine" },
-  { "price": 15.00, "type": "livro", "name": "A conspiração" },       
-  { "price": 10.00, "type": "livro", "name": "O lado bom da vida" },
-  { "price": 15.00, "type": "livro", "name": "Grandes Mestres - Toulouse Lautrec" },
-  { "price": 15.00, "type": "livro", "name": "O livro do cinema" },
-  { "price": 10.00, "type": "livro", "name": "Réquiem para Cézanne" },
-  { "price": 30.00, "type": "filme", "name": "Trilogia Matrix - Box" },
-  { "price": 30.00, "type": "filme", "name": "Trilogia O senhor dos anéis - Box" },
-  { "price": 10.00, "type": "filme", "name": "Kill Bill Volume I" },
-  { "price": 10.00, "type": "filme", "name": "Kill Bill Volume II" },
-  { "price": 10.00, "type": "filme", "name": "Pulp Fiction" },
-  { "price": 10.00, "type": "filme", "name": "A lista de Schindler" },
-  { "price": 10.00, "type": "filme", "name": "Birdman" },
-  { "price": 10.00, "type": "filme", "name": "Donnie Brasco" },
-  { "price": 10.00, "type": "filme", "name": "O expresso da meia noite" },
-  { "price": 10.00, "type": "filme", "name": "Laranja Mecânica" },
-  { "price": 10.00, "type": "filme", "name": "Scarface" }
+  { "price": 15.00, "type": "sabonete", "name": "100% Coco Extra Virgem" },
+  { "price": 15.00, "type": "sabonete", "name": "Esfoliante Café e Eucalipto" },       
+  { "price": 20.00, "type": "sabonete", "name": "Cacau e Menta" },
+  { "price": 15.00, "type": "sabonete", "name": "Mini Bastile" },
+  { "price": 15.00, "type": "sabonete", "name": "Bastile com Argila Vermelha" },
+  { "price": 20.00, "type": "sabonete", "name": "Argila Branca e Cinza" }
 ];
 
 const addToCart = (product) => {
@@ -110,7 +99,7 @@ sendButton.onclick = () => {
 
   message = window.encodeURIComponent(message);
   
-  link.setAttribute('href', `https://api.whatsapp.com/send?phone=556282067934&text=${message}`)
+  link.setAttribute('href', `https://api.whatsapp.com/send?phone=5562992409942&text=${message}`)
   link.click();
 }
 
