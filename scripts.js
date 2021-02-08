@@ -9,11 +9,11 @@ const closeModalButton = document.getElementById('close-modal');
 const sendButton = document.getElementById('send');
 
 const products = [
-  { "price": 15.00, "type": "sabonete", "name": "Óleo de Coco Extra Virgem" },
-  { "price": 15.00, "type": "sabonete", "name": "Esfoliante Café e Eucalipto" },       
-  { "price": 20.00, "type": "sabonete", "name": "Cacau e Menta" },
-  { "price": 15.00, "type": "sabonete", "name": "Mini Bastile" },
-  { "price": 15.00, "type": "sabonete", "name": "Bastile com Argila Vermelha" },
+  { "price": 20.00, "type": "sabonete", "name": "Óleo de Coco Extra Virgem" },
+  { "price": 20.00, "type": "sabonete", "name": "Esfoliante Café e Eucalipto" },       
+  { "price": 25.00, "type": "sabonete", "name": "Cacau e Menta" },
+  { "price": 5.00, "type": "sabonete", "name": "Mini Bastile" },
+  { "price": 20.00, "type": "sabonete", "name": "Bastile com Argila Vermelha" },
   { "price": 20.00, "type": "sabonete", "name": "Argila Branca e Cinza" }
 ];
 
