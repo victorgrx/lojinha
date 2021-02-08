@@ -12,8 +12,9 @@ const products = [
   { "price": 20.00, "type": "sabonete", "name": "Óleo de Coco Extra Virgem" },
   { "price": 20.00, "type": "sabonete", "name": "Esfoliante Café e Eucalipto" },       
   { "price": 25.00, "type": "sabonete", "name": "Cacau e Menta" },
-  { "price": 5.00, "type": "sabonete", "name": "Mini Bastile" },
-  { "price": 20.00, "type": "sabonete", "name": "Bastile com Argila Vermelha" },
+  { "price": 5.00, "type": "sabonete", "name": "Mini Bastille" },
+  { "price": 20.00, "type": "sabonete", "name": "Bastille com Argila Vermelha" },
+  { "price": 20.00, "type": "sabonete", "name": "Bastille com Laranja e Argila Verde e Preta" },
   { "price": 20.00, "type": "sabonete", "name": "Argila Branca e Cinza" }
 ];
 
